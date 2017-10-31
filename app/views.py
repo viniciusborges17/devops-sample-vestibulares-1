@@ -43,8 +43,8 @@ def about(request):
         'app/about.html',
         context_instance = RequestContext(request,
         {
-            'title':'About',
-            'message':'Gerenciador de vestibulares',
+              'title':'Sobre',
+            'message':'Borges Software',
             'year':datetime.now().year,
         })
     )
